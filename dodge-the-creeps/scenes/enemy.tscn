@@ -48,12 +48,11 @@ animations = [{
 radius = 35.0
 height = 98.0
 
-[node name="Enemy" type="RigidBody2D" unique_id=1050397887 node_paths=PackedStringArray("animatedSprite")]
+[node name="Enemy" type="RigidBody2D" unique_id=1050397887 node_paths=PackedStringArray("animatedSprite") groups=["mobs"]]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_nenq2")
 animatedSprite = NodePath("AnimatedSprite2D")
-metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1047248509]
 rotation = 1.5707964
